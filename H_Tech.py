@@ -164,25 +164,25 @@ logo=("""
  ▒ ░▒░ ░    ░     ░ ░  ░  ░  ▒    ▒ ░▒░ ░
  ░  ░░ ░  ░         ░   ░         ░  ░░ ░
  ░  ░  ░            ░  ░░ ░       ░  ░  ░
-                        ░                AFG                                                                                        
-\033[0;94m╔━━━━━━━━━━━♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡━━━━━━━━━━━━╗\033[1;33m 
-♡[\033[1;33m[•] AUTHOR   \33[0;m:\033[1;35m Hassan & \033[1;36m Hassan 
-♡[\033[1;32m[•] FACEBOOK \033[1;32m:\033[1;32m Hassan & \033[1;33m Karimi
-♡[\033[1;35m[•] TEAM \033[1;34m    :\033[1;33m Hassan-TECH
-♡[\033[1;34m[•] WhatsApp \033[1;32m:\033[1;34m 93705843630
-♡[\033[1;33m[•] STATUS\033[1;33m   :\033[1;31m FREE\33[1;37m
-♡[\033[1;32m[•] VERSION  : 4.6
-\033[0;94m╚━━━━━━━━━━♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡━━━━━━━━━━━╝\033[1;37m""")
+  			░                AFG                                                                                       ▀▀▀▀▀█
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█  Github: https://github.com/HassanKarimi630
+█  Facebook : HASSAN
+█  Modifier:  Hassan Karimi 
+█  Team :  H-Tech
+█  version: 1.1.4
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+		
 
 def lines():
-	print(f'\033[0;95m✓♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡✓\033[1;37') 
+	print(f'\033[0;95m✓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀✓\033[1;37') 
  
 loop = 0
 oks = []
 cps = []
 try:
     
-    proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
+    proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
     if str(v) in update:
