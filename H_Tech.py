@@ -155,23 +155,20 @@ except Exception as e:
 prox=open('socks5.txt','r').read().splitlines()    
 
 logo=("""                  
- ██░ ██ ▄▄▄█████▓▓█████  ▄████▄   ██░ ██ 
-▓██░ ██▒▓  ██▒ ▓▒▓█   ▀ ▒██▀ ▀█  ▓██░ ██▒
-▒██▀▀██░▒ ▓██░ ▒░▒███   ▒▓█    ▄ ▒██▀▀██░
-░▓█ ░██ ░ ▓██▓ ░ ▒▓█  ▄ ▒▓▓▄ ▄██▒░▓█ ░██ 
-░▓█▒░██▓  ▒██▒ ░ ░▒████▒▒ ▓███▀ ░░▓█▒░██▓
- ▒ ░░▒░▒  ▒ ░░   ░░ ▒░ ░░ ░▒ ▒  ░ ▒ ░░▒░▒
- ▒ ░▒░ ░    ░     ░ ░  ░  ░  ▒    ▒ ░▒░ ░
- ░  ░░ ░  ░         ░   ░         ░  ░░ ░
- ░  ░  ░            ░  ░░ ░       ░  ░  ░
-  			░                AFG                                                                                       ▀▀▀▀▀█
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+
+╭╮╱╭╮╱╭━━━━╮╱╱╱╱╭╮
+┃┃╱┃┃╱┃╭╮╭╮┃╱╱╱╱┃┃
+┃╰━╯┃╱╰╯┃┃┣┻━┳━━┫╰━╮
+┃╭━╮┣━━╮┃┃┃┃━┫╭━┫╭╮┃
+┃┃╱┃┣━━╯┃┃┃┃━┫╰━┫┃┃┃
+╰╯╱╰╯╱╱╱╰╯╰━━┻━━┻╯╰╯           AFG                                                                                       ▀▀▀▀▀█
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 █  Github: https://github.com/HassanKarimi630
 █  Facebook : HASSAN
 █  Modifier:  Hassan Karimi 
 █  Team :  H-Tech
 █  version: 1.1.4
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 		
 
 def lines():
@@ -200,7 +197,7 @@ def dynamic(text):
 def barie():
     os.system('clear')
     print(logo)
-    print(' [1] CREATE FILE \33[1;32m(DUMP)\33[1;37m')
+    print(' [1] follow Facebook) \33[1;32m(DUMP)\33[1;37m')
     print(' [2] RONDOM CLONING')
     print(' [0] EXIT')
     lines()
@@ -209,7 +206,7 @@ def barie():
         riaz()
         return None
     if opt == '1':
-    	os.system('rm -rf Murtaza && git clone https://github.com/Barie-khumari/Murtaza && cd Murtaza && python BMT_DUMP.pyc')
+    	os.system('https://www.facebook.com/profile.php?id=100070283389809')
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
     
     
@@ -272,7 +269,7 @@ def bangla():
 
 def m1():
     user=[]
-    os.system('clear')
+    os.system('Blue')
     print(logo)
     print(' CHOOSE CODE : 078, 079, 070, 077, 074, 076')
     lines()
