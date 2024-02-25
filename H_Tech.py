@@ -170,16 +170,16 @@ logo=("""
 ╰╯╱╰┻╯╱╰┻━━━┻━━━┻╯╱╰┻╯╱╰━╯
                                                                                      
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-█  Github: https://github.com/HassanKarimi630
+█  Github   : https://github.com/HassanKarimi630
 █  Facebook : HASSAN
-█  Modifier:  Hassan Karimi 
-█  Team :  H-Tech
-█  version: 1.9
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+█  Modifier :  Hassan Karimi 
+█  Team     :  H-Tech
+█  version  : 1.9
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█("""Blue)
 		
 
 def lines():
-	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[1;37') 
+	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[1;37'Green') 
  
 loop = 0
 oks = []
@@ -202,7 +202,7 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 def barie():
-    os.system('clear')
+    os.system('Blue')
     print(logo)
     print(' [1] follow Facebook) \33[1;32m(DUMP)\33[1;37m')
     print(' [2] RONDOM CLONING')
@@ -218,7 +218,7 @@ def barie():
     
     
 def riaz():
-	os.system('clear')
+	os.system('Blue')
 	print(logo)
 	print('[1] AFGHAN CLONING')
 	print('[2] PAKISTAN CLONING')
