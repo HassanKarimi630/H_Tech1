@@ -179,7 +179,7 @@ logo=("""
 		
 
 def lines():
-	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀'') 
+	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[0;95m') 
  
 loop = 0
 oks = []
@@ -202,7 +202,7 @@ def dynamic(text):
         sys.stdout.flush();time.sleep(1)
 
 def barie():
-    os.system('Blue')
+    os.system('clear')
     print(logo)
     print(' [1] follow Facebook) \33[1;32m(DUMP)\33[1;37m')
     print(' [2] RONDOM CLONING')
@@ -218,7 +218,7 @@ def barie():
     
     
 def riaz():
-	os.system('Blue')
+	os.system('clear')
 	print(logo)
 	print('[1] AFGHAN CLONING')
 	print('[2] PAKISTAN CLONING')
