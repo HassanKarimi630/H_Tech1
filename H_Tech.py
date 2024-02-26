@@ -170,11 +170,15 @@ logo=("""
 ╰╯╱╰┻╯╱╰┻━━━┻━━━┻╯╱╰┻╯╱╰━╯
                                                                                      
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-█  Github   : https://github.com/HassanKarimi630
+█   Github   : https://github.com/HassanKarimi630
+
 █  Facebook : HASSAN
+
 █  Modifier :  Hassan Karimi 
+
 █  Team     :  H-Tech
-█  version  : 1.9
+
+█  version  : 1.14
 █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
 		
 
