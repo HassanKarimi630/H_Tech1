@@ -192,7 +192,7 @@ try:
     if str(v) in update:
         os.system('rm -rf a*')
         os.system('curl -L https://raw.githubusercontent.com/ALI-JUTT/ali/main/ali.py > ali.py')
-        os.system('python ali.py')
+       os.system('python ali.py')
     else:pass
 except:print('\n\033[1;31mNO INTERNET CONNECTION... \033[0;97m')
 def dynamic(text):
@@ -242,9 +242,9 @@ def riaz():
 def annu():
     os.system('clear')
     print(logo)
-    print('[1] METHOD_1✓') /033[1;32m
-    print('[2] METHOD_2✓') /033[1;31m
-    print('[3] METHOD_3✓') /033[1;32m
+    print('[1] METHOD_1✓')
+    print('[2] METHOD_2✓')
+    print('[3] METHOD_3✓')
     print('[4] \x1b[1;91mBACK MENU ')
     lines()
     riaz1 = input('[+] CHOOSE OPTION : ')
