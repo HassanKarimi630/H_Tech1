@@ -332,7 +332,7 @@ def m2():
         print(logo)
         tl = str(len(user))
         print(' TOTAL ACOUNTS : '+tl)
-        print(' SELECTED CODE :\x1b[1;33m '+kode)
+        print(' SELECTED CODE :\x1b[1;92m '+kode)
         print('\x1b[1;92m USE FLIGHT MODE FOR SPEED UP')
         lines()
         for guru in user:
