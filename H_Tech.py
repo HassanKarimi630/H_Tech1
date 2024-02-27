@@ -220,9 +220,9 @@ def barie():
 def riaz():
 	os.system('clear')
 	print(logo)
-	print('[1] AFGHAN CLONING')  
-	print('[2] PAKISTAN CLONING')  /033[1;36m
-	print('[3] FOLLOW MY Facebook')  /033[1;35m
+	print('[1] AFGHAN CLONING')
+	print('[2] PAKISTAN CLONING')
+	print('[3] FOLLOW MY Facebook')
 	print('[0]\x1b[1;91m EXIT ')
 	lines()
 	riaz1 = input('[•] SELECT OPTION : ')
