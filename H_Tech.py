@@ -174,7 +174,7 @@ logo=("""
 █  Facebook : HASSAN
 █  Modifier :  Hassan Karimi 
 █  Team     :  H-Tech
-█  version  : 1.14
+█  version  : 1.11
 █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ /033[1;36m""")
 		
 
